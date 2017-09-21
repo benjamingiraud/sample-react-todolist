@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background: #f4f4f4;
+  font: 400 14px CoreSans, Arial, sans-serif;
+}
+h2 {
+  margin: 0.25em;
+}
+input {
+  padding: 0.5em;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #dddddd;
+  transition: 1s focus ease-in;
+  font-size: 125%;
+}
+input::placeholder {
+  color: rgba(25, 25,25, 0.33);
+}
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  background: #FFFFFF;
+  color: #808080;
+  cursor: pointer;
+  transition: all 0.33s ease-out;
+}
+
+button:hover:not(.current) {
+  color: #61DAFB;
+  border: 1px solid #61DAFB;
+}
